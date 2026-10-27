@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Juan Miguel Chica — Software engineer</title>
+    <meta
+      name="description"
+      content="Juan Miguel Chica. Software engineer en Colombia. Construyo productos web y mobile: Campy, Notea y Smart English Play."
+    />
+    <meta property="og:title" content="Juan Miguel Chica" />
+    <meta property="og:description" content="Productos web y mobile. Campy, Notea, Smart English Play." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0c0c0d" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#trabajo">Saltar al trabajo</a>
+    <header class="nav">
+      <a class="mark" href="#">JMC</a>
+      <nav>
+        <a href="#trabajo">Trabajo</a>
+        <a href="#stack">Stack</a>
+        <a href="#contacto">Contacto</a>
+        <a class="gh" href="https://github.com/JuanChica-rgb" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Software engineer · Colombia</p>
+        <h1>Juan Miguel Chica</h1>
+        <p class="lede">
+          Diseño y lanzo productos reales: citas universitarias, educación y juego.
+          Ingeniería de Sistemas en la Universidad Nacional de Colombia.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#trabajo">Ver productos</a>
+          <a class="btn" href="mailto:juanmiguel71293@gmail.com">Escribir</a>
+        </div>
+      </section>
+
+      <section id="trabajo" class="work">
+        <h2>Productos</h2>
+
+        <article class="product featured" data-brand="campy">
+          <div class="copy">
+            <p class="tag">Web + Android</p>
+            <h3>Campy</h3>
+            <p>
+              App de citas para universitarios. Swipe, matches, chats, grupos de campus
+              y verificación 18+. Web y Android con el mismo producto.
+            </p>
+            <ul>
+              <li>React 19, Vite, Tailwind</li>
+              <li>Supabase (auth, RLS, realtime)</li>
+              <li>Capacitor 8 + Android</li>
+            </ul>
+            <div class="links">
+              <a href="https://campy-universitario.web.app" rel="noopener noreferrer">Abrir demo</a>
+              <a href="https://github.com/JuanChica-rgb/Campy" rel="noopener noreferrer">Código</a>
+            </div>
+          </div>
+          <div class="visual" aria-hidden="true">
+            <div class="phone">
+              <span class="pill">Campy</span>
+              <strong>Conecta con gente de tu universidad</strong>
+              <span class="muted">Swipe · matches · grupos</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product" data-brand="notea">
+          <div class="copy">
+            <p class="tag">Educación</p>
+            <h3>Notea</h3>
+            <p>
+              Cursos con cuadernos, juegos y repaso. El tutor publica material;
+              el estudiante estudia, juega y comparte.
+            </p>
+            <ul>
+              <li>React 19, Vite, Tailwind</li>
+              <li>Firebase Auth + Firestore</li>
+              <li>Editor, lobby multijugador, perfiles de creador</li>
+            </ul>
+            <div class="links">
+              <a href="https://notea-6a76e.web.app" rel="noopener noreferrer">Abrir demo</a>
+              <a href="https://github.com/JuanChica-rgb/Notea" rel="noopener noreferrer">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product" data-brand="smart">
+          <div class="copy">
+            <p class="tag">EdTech</p>
+            <h3>Smart English Play</h3>
+            <p>
+              Minijuegos de inglés para academia: sopa de letras, scrabble, taboo,
+              codenames, hangman y más. PWA lista para clase.
+            </p>
+            <ul>
+              <li>React + Vite + PWA</li>
+              <li>Solo y multijugador en sala</li>
+              <li>Hecho para Smart Academia de Idiomas</li>
+            </ul>
+            <div class="links">
+              <a href="https://smart-english-play-jm.web.app" rel="noopener noreferrer">Abrir demo</a>
+              <a href="https://github.com/JuanChica-rgb/smart-english" rel="noopener noreferrer">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product" data-brand="vn">
+          <div class="copy">
+            <p class="tag">Catálogo</p>
+            <h3>VN Portal</h3>
+            <p>
+              Portal de juegos con autenticación, favoritos, calificaciones
+              y panel de administración.
+            </p>
+            <ul>
+              <li>React, Vite, Tailwind</li>
+              <li>Supabase</li>
+              <li>ES / EN</li>
+            </ul>
+            <div class="links">
+              <a href="https://github.com/JuanChica-rgb/VNPortal" rel="noopener noreferrer">Código</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="more">
+        <h2>También</h2>
+        <div class="grid">
+          <a class="mini" href="https://github.com/JuanChica-rgb/foro-colombia" rel="noopener noreferrer">
+            <h3>Foro Colombia</h3>
+            <p>Foro regional con auth, posts, comentarios y votos. Flask + SQLite.</p>
+          </a>
+          <a class="mini" href="https://github.com/JuanChica-rgb/tienda-juegos" rel="noopener noreferrer">
+            <h3>Tienda de Juegos</h3>
+            <p>Catálogo PC/APK con tags y rol de administrador. Flask.</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="stack" class="stack">
+        <h2>Stack</h2>
+        <ul>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Vite</li>
+          <li>Tailwind CSS</li>
+          <li>Firebase</li>
+          <li>Supabase</li>
+          <li>Capacitor</li>
+          <li>Android</li>
+          <li>Python</li>
+          <li>Flask</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer id="contacto" class="foot">
+      <div>
+        <p class="eyebrow">Contacto</p>
+        <h2>Hablemos.</h2>
+        <p>Prácticas, freelance o producto. Respondo al correo.</p>
+      </div>
+      <div class="actions">
+        <a class="btn primary" href="mailto:juanmiguel71293@gmail.com">juanmiguel71293@gmail.com</a>
+        <a class="btn" href="https://github.com/JuanChica-rgb" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </footer>
+  </body>
+</html>
